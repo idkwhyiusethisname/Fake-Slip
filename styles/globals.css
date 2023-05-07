@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Kblight;
+  src: url("./fonts/font_light.otf") format("opentype");
+}
+.kbank_light {
+  font-family: 'Kblight', sans-serif;
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: Kbblod;
+  src: url("./fonts/font_bold.otf") format("opentype");
+}
+.kbank_blod {
+  font-family: 'Kbblod', sans-serif;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Kbsblod;
+  src: url("./fonts/font_semibold.otf") format("opentype");
+}
+.kbank_semibold {
+  font-family: 'Kbsblod', sans-serif;
+  font-weight: blod;
+}
